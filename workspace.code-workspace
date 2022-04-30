@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"name": "wk10assignment",
+		"path": "."
+	},
+	{
+		"name": "lab15 3",
+		"path": "../../../Downloads/lab15 3"
+	},
+	{
+		"name": "lab17",
+		"path": "../../../Downloads/lab17"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "wk10assignment"
+  }
+}
