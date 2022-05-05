@@ -14,10 +14,9 @@
 // window.alert("You found the letter: " + charCode);
 
 // //STEP 2
-// let name = prompt('What is your first name?');
-// let number = prompt('Choose a number between 1 and the amount of letters of your name')
-// alert(name.charAt(number-1));
-// alert("You found the letter: " + String.fromCharCode  );
+
+// var name = window.prompt("Your name");
+// window.alert("first letter of your name unicode is  " + name.charCodeAt(0));
 
 //STEP 3
 // Create an application that prompts the user for their first name. Then, prompt the user for their last name using a second prompt. Use the alert method to display the text "Your name is: " along with the result of the first name and last name concatenated together. You will use a concatenation operator to concatenate the literal string with the result of the String object method’s result.

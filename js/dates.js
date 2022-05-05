@@ -50,10 +50,11 @@
 // let dayNames = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
 
 // let now = new Date();
-// document.write(dayNames[now.getDay()==0?6:now.getDay()] );
+// document.write(dayNames[now.getDay()==0?6:now.getDay()-1] );
 
 //STEP 5 
 // Create an application that gets the current day of the week. The twist here is that I want only the first letter of the day. If today is Tuesday, the letter T should be displayed in the console window
+
 // let date = new Date()
 // let today = date.getDay() +1; 
 // switch (today) {  

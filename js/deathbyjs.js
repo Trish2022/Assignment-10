@@ -42,7 +42,6 @@
 // Example string: 'The quick brown fox' 
 // Expected Output: 5
 
-
 // function vowel_count(str1)
 // {
 //   var vowel_list = 'aeiouAEIOU';
@@ -81,7 +80,7 @@
 
 
 
-//STEP 5   !!!!!!!!!!!!!!!!!!! NOT WORKING YET NEEDS MORE
+//STEP 5   !!!!!!!!!!!!!!!!!!! NOT WORKING YET 
 
 // Write a JavaScript function that accepts a list of country names as input and returns the longest country name as output.
 // Sample Data and Output
@@ -109,18 +108,18 @@
 
 //     return longestCountryName;
 // }
-// function Longest_Country_Name(countries) {
-//     let longestCountry = countries[0];
-//     for (let country of countries) {
-//         if (country.length > longestCountry.length) {
-//             longestCountry = country;
-//         }
-//     }
-//     return longestCountry;
-// }
-// function Longest_Country_Name(countries) {
-//     return countries.sort((c2, c1) => c1.length - c2.length)[0];
-// }
+function Longest_Country_Name(countries) {
+    let longestCountry = countries[0];
+    for (let country of countries) {
+        if (country.length > longestCountry.length) {
+            longestCountry = country;
+        }
+    }
+    return longestCountry;
+}
+function Longest_Country_Name(countries) {
+    return countries.sort((c2, c1) => c1.length - c2.length)[0];
+}
 
 
 let index = 0;
@@ -141,4 +140,30 @@ for(let i = 0; i < countries.length; i++){
 // Expected output: "United States of America"
 
 
+// function makeid(l)
+// {
+// var text = "";
+// var char_list = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+// for(var i=0; i < l; i++ )
+// {  
+// text += char_list.charAt(Math.floor(Math.random() * char_list.length));
+// }
+// return text;
+// }
+// console.log(makeid(8));
+
+var cNames = ("Argentina","Belgium","South Korea","	Guinea-Bissau","	Democratic Republic of the Congo","United States of America");
+
+function find_longest_Country_Name(cNames){
+    country_Name = "cNames.split(' ')";
+    console.log(cNames);
+//     var lengthCountries = " ";
+
+//      for (var i = 0; i < cNames.length; i++){
+//        lengthCountries.push(find_longest_Country_Name(lengthCountries));
+// }  
+//    return lengthCountries.join(' ');
+
+}
+find_longest_Country_Name(cNames);
 

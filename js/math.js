@@ -16,7 +16,7 @@
 // let num = prompt('Enter a decimal number');
 // console.log(Math.floor(num));
 
-
+//STEP 4
 // Create an application that prompts the user for 5 numbers. Ask them to comma delimit each number so you get 1,2,3,4,5 for example. Store the result of that input in a variable and then find the largest and smallest numbers in that list. Display both of those numbers within a console window.
 
 // let numbers = prompt('Enter 5 numbers in this format: x,x,x,x,x');
@@ -26,3 +26,9 @@
 
 //STEP 5
 // Create an application that prompts the user for a number. Now find the square root of that number and display the result within a console window. 
+
+// // take the input from the user
+// const number = prompt('Enter the number: ');
+
+// const result = Math.sqrt(number);
+// console.log(`The square root of ${number} is ${result}`);
